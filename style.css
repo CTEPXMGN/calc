@@ -1,0 +1,83 @@
+* {
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+#board {
+    position: relative;
+    margin: 100px auto;
+    width: 364px;
+    height: 582px;
+    background: #17171C;
+    border-radius: 35px;
+}
+
+#conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    height: 542px;
+}
+
+#display {
+    text-align: right;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 70px;
+    color: white;
+    width: 324px;
+    height: 96px;
+}
+
+#row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#button__1, #button__2, #button__3, #button__4, #button__5, #button__6, #button__7, #button__8, #button__9, #button__back {
+    font-size: 32px;
+    border-radius: 24px;
+    border-style: none;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background: #2E2F38;
+    color: white;
+}
+
+#button__C {
+    font-size: 32px;
+    border-radius: 24px;
+    border-style: none;
+    width: 153px;
+    height: 70px;
+    background: #4E505F;
+    color: white;
+}
+
+#button__0 {
+    font-size: 32px;
+    border-radius: 24px;
+    border-style: none;
+    width: 238px;
+    height: 70px;
+    color: white;
+    background: #2E2F38;
+}
+
+#button__sub, #button__sum, #button__mult, #button__div, #button__res {
+    font-size: 32px;
+    border-radius: 24px;
+    border-style: none;
+    width: 70px;
+    height: 70px;
+    background: #4B5EFC;
+    color: white;
+}
